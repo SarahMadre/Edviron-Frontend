@@ -56,14 +56,14 @@ npm start
 
 ## **Pages & Functionality**
 
-| Page               | Description                           |
-| ------------------ | ------------------------------------- |
-| Login              | User login with JWT authentication    |
-| Dashboard          | Overview of transactions and payments |
-| SchoolTransactions | View transactions by school           |
-| StatusCheck        | Check payment status of an order      |
-| TransactionDetails | Detailed info of a transaction        |
-| Create Payment     | Initiate a new payment                |
+| Page               | Description                                                   |
+| ------------------ | ------------------------------------------------------------- |
+| Login              | User login with JWT authentication                            |
+| Dashboard          | Overview of transactions and payments                         |
+| SchoolTransactions | View transactions by school                                   |
+| StatusCheck        | Check payment status of an order entering a Customer ID.      |
+| Analytics          | Provides visual insights and charts based on transaction data.|
+| Logout             | Logs the user out of the application securely.                                    |
 
 ---
 
