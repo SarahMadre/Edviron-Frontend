@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // adjust if deployed
+  baseURL: "https://edviron-school-payment-dashboard-backend.onrender.com/api", // adjust if deployed
 });
 
 export default api;

@@ -10,7 +10,7 @@ export default function Analytics() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/transactions");
+        const response = await fetch("https://edviron-school-payment-dashboard-backend.onrender.com/api/transactions");
         const data = await response.json();
         setPaymentData(data);
         setLoading(false);
