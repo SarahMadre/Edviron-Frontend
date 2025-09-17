@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# School Payment Dashboard - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Project Overview**
+This is the **frontend** for the School Payment Dashboard project.  
+Built with **React**, it communicates with the backend API to manage user authentication, payments, and transaction data.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Technologies Used**
+- React.js  
+- Axios (for API calls)  
+- React Router (for routing)  
+- CSS / SCSS for styling  
+- Deployed on Netlify / Vercel
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Setup Instructions**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Clone Repository
+```bash
+git clone https://github.com/<your-username>/frontend-repo.git
+cd frontend
+````
 
-### `npm test`
+### 2. Install Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+### 3. Create Environment Variables
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Create a `.env` file in the `frontend` folder:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+REACT_APP_API_URL=https://edviron-school-payment-dashboard-backend.onrender.com/api
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Run Locally
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Runs on [http://localhost:3000](http://localhost:3000)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## **Pages & Functionality**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Page               | Description                           |
+| ------------------ | ------------------------------------- |
+| Login              | User login with JWT authentication    |
+| Dashboard          | Overview of transactions and payments |
+| SchoolTransactions | View transactions by school           |
+| StatusCheck        | Check payment status of an order      |
+| TransactionDetails | Detailed info of a transaction        |
+| Create Payment     | Initiate a new payment                |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## **Screenshots**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Login Page**
+<img width="1837" height="889" alt="image" src="https://github.com/user-attachments/assets/b707cc0a-f2c7-4527-bd84-f7512b025e49" />
+<img width="1762" height="780" alt="image" src="https://github.com/user-attachments/assets/110aed41-73fe-4b15-9c9c-a31a32d50867" />
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Dashboard**
+<img width="1919" height="989" alt="image" src="https://github.com/user-attachments/assets/997faa5d-26b7-4f13-b9b4-e0bda65b60dc" />
+<img width="1919" height="583" alt="image" src="https://github.com/user-attachments/assets/d5d16642-e190-41e9-b355-df5b47058ba0" />
+<img width="1919" height="573" alt="image" src="https://github.com/user-attachments/assets/90e4f8c6-c9ba-4ba6-900e-d2adcd7a495c" />
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**School Transactions**
+<img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/0f061c85-c536-4edd-bdd8-b9179517f773" />
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Transaction Details**
+![Transaction Details](screenshots/transaction-details.png)
 
-### Advanced Configuration
+**Create Payment**
+![Create Payment](screenshots/create-payment.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> Replace `screenshots/...` with the actual paths to your screenshots.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## **Deployment**
 
-### `npm run build` fails to minify
+* Hosted on Netlify / Vercel / AWS
+* Public URL: [https://school-payment-frontend.netlify.app](https://school-payment-frontend.netlify.app)
+* Connects to backend at: [https://edviron-school-payment-dashboard-backend.onrender.com/api](https://edviron-school-payment-dashboard-backend.onrender.com/api)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## **Contributing**
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+---
+
+## **License**
+
+This project is licensed under the MIT License.
+
+```
+
+---
+
+If you want, I can also **polish it further with badges, live demo button, and prettier screenshot layout** so it looks professional on GitHub.  
+
+Do you want me to do that?
+```
