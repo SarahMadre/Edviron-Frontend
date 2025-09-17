@@ -29,13 +29,20 @@ cd frontend
 npm install
 ```
 
-### 3. Create Environment Variables
+### 3. API Configuration
 
-Create a `.env` file in the `frontend` folder:
+Axios is already configured to connect to the backend:
 
-```
-REACT_APP_API_URL=https://edviron-school-payment-dashboard-backend.onrender.com/api
-```
+import axios from "axios";
+
+const api = axios.create({
+  baseURL: "https://edviron-school-payment-dashboard-backend.onrender.com/api", // adjust if deployed
+});
+
+export default api;
+
+
+No .env file is needed since the base URL is already hardcoded.
 
 ### 4. Run Locally
 
@@ -90,9 +97,3 @@ npm start
 
 
 
----
-
-If you want, I can also **polish it further with badges, live demo button, and prettier screenshot layout** so it looks professional on GitHub.  
-
-Do you want me to do that?
-```
