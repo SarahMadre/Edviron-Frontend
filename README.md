@@ -36,7 +36,7 @@ Axios is already configured to connect to the backend:
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://edviron-school-payment-dashboard-backend.onrender.com/api 
+  baseURL: "https://edviron-school-payment-dashboard-backend.onrender.com/api ,
 });
 
 export default api;
