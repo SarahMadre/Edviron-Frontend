@@ -74,42 +74,21 @@ npm start
 
 
 **School Transactions**
+<img width="1919" height="597" alt="image" src="https://github.com/user-attachments/assets/ec3ba776-efda-416e-8ae1-7eb0fae8711f" />
 <img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/0f061c85-c536-4edd-bdd8-b9179517f773" />
 
 
 **Transaction Details**
-![Transaction Details](screenshots/transaction-details.png)
+<img width="1919" height="577" alt="image" src="https://github.com/user-attachments/assets/d3989bcf-b4cc-4a99-9236-acc9061b524a" />
+<img width="1919" height="486" alt="image" src="https://github.com/user-attachments/assets/f5bfaf4f-6730-4214-9333-f46bd26c9c88" />
 
-**Create Payment**
-![Create Payment](screenshots/create-payment.png)
 
-> Replace `screenshots/...` with the actual paths to your screenshots.
 
----
+**Analytics**
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/167ac9fe-fa08-4e83-9573-af8c532da33e" />
 
-## **Deployment**
 
-* Hosted on Netlify / Vercel / AWS
-* Public URL: [https://school-payment-frontend.netlify.app](https://school-payment-frontend.netlify.app)
-* Connects to backend at: [https://edviron-school-payment-dashboard-backend.onrender.com/api](https://edviron-school-payment-dashboard-backend.onrender.com/api)
 
----
-
-## **Contributing**
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
----
-
-## **License**
-
-This project is licensed under the MIT License.
-
-```
 
 ---
 
